@@ -1,7 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
-/* Reset */
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
 
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -22,20 +20,6 @@
 
   ol, ul {
     list-style: none;
-  }
-
-  blockquote, q {
-    quotes: none;
-  }
-
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
-  }
-
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
   }
 
   body {
@@ -114,9 +98,9 @@
     }
 
   body, input, select, textarea {
-    color: #ffffff;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
+    color: #910317;
+    font-family: "Merriweather", sans-serif;
+    font-weight: bold;
     font-size: 1rem;
     line-height: 1.65;
   }
@@ -136,7 +120,7 @@
     }
 
   strong, b {
-    color: #ffffff;
+    color: #03092F;
     font-weight: 600;
   }
 
@@ -149,7 +133,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;
+    color: #03092F;
     font-weight: 600;
     line-height: 1.5;
     margin: 0 0 1rem 0;
@@ -603,7 +587,7 @@
       -ms-pointer-events: none;
       pointer-events: none;
       background-image: url("../../images/overlay.png");
-      background-color: rgba(19, 21, 25, 0.5);
+      background-color: #03092F;
       border-radius: 4px;
       content: '';
       display: block;
@@ -1473,7 +1457,7 @@
       position: relative;
       width: 40rem;
       max-width: 100%;
-      background-color: rgba(27, 31, 34, 0.85);
+      background-color: #986C0E;
       border-radius: 4px;
       opacity: 0;
     }
